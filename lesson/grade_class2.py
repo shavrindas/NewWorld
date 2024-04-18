@@ -1,3 +1,5 @@
+#git work plz
+
 class Student:
     def __init__(self, student_id, name, english_score, code_score, python_score):
         self.student_id = student_id
@@ -9,7 +11,7 @@ class Student:
         self.average_score = self.total_score / 3
         self.grade = None
         self.rank = None
-
+ 
 class StudentManager:
     def __init__(self):
         self.students = []
